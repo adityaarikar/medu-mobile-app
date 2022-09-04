@@ -14,6 +14,30 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		7699B88040F8A987B510C191 /* libPods-Medu-MeduTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-Medu-MeduTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		5F240EB9547C44F2B95224E5 /* Nordeco-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2CF23377CE4F41A38A251D73 /* Nordeco-Bold.ttf */; };
+		EF3AD2F964DD43B79997A5B2 /* Nordeco-Bold.woff in Resources */ = {isa = PBXBuildFile; fileRef = 61CA6F0C34C14F978AB5356C /* Nordeco-Bold.woff */; };
+		43F84528005C4EF08A9E5911 /* Nordeco-Bold.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 020F4D20A4744B6EB3D8A90D /* Nordeco-Bold.woff2 */; };
+		E943F6B0F8E3422A9FA7AE8A /* Nordeco-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9ADC6708F2E54780BFE555EB /* Nordeco-Light.ttf */; };
+		F01DFCF1ECB74D38967F6DD7 /* Nordeco-Light.woff in Resources */ = {isa = PBXBuildFile; fileRef = 2BA0BA4CF19843D9A7E8E176 /* Nordeco-Light.woff */; };
+		D8F96166C71146E39C20E33F /* Nordeco-Light.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = B1C5A103D6954E4F92A1FE72 /* Nordeco-Light.woff2 */; };
+		C97AD610A9DC42FD84E8FCF0 /* Nordeco-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F2B9B43FA82E490D8A8D4221 /* Nordeco-Regular.ttf */; };
+		2AA3D400490243739EA34860 /* Nordeco-Regular.woff in Resources */ = {isa = PBXBuildFile; fileRef = 5B693B0B270148E79D646C29 /* Nordeco-Regular.woff */; };
+		86783457759448868DE3BBED /* Nordeco-Regular.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = FB0AFEC1624C40AFB37B934D /* Nordeco-Regular.woff2 */; };
+		88007E0E3744457BBB8050BF /* Nordeco-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B4C6D01AD5CB41EFBDA18533 /* Nordeco-SemiBold.ttf */; };
+		94421BCE3498457FA2A01E54 /* Nordeco-SemiBold.woff in Resources */ = {isa = PBXBuildFile; fileRef = 9B127D0747584CC3BD410F81 /* Nordeco-SemiBold.woff */; };
+		516794C8DC5B445CA10BA570 /* Nordeco-SemiBold.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 1C89EBBAD3784A40BF9558B8 /* Nordeco-SemiBold.woff2 */; };
+		C61BC9C0CAFA4B418F56F6A7 /* NordecoCyrillic-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 96B0572861754609816FB9B1 /* NordecoCyrillic-Bold.ttf */; };
+		4ED47A39203D416F9A854FB0 /* NordecoCyrillic-Bold.woff in Resources */ = {isa = PBXBuildFile; fileRef = DA33D369875B4470BD78FE61 /* NordecoCyrillic-Bold.woff */; };
+		FD73DE8885BA4CB884E84961 /* NordecoCyrillic-Bold.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = C1FEC2F424864544A2931D31 /* NordecoCyrillic-Bold.woff2 */; };
+		8557DD92A9CB4EAEBF050461 /* NordecoCyrillic-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 565F0CD4773B41168A8365AF /* NordecoCyrillic-Light.ttf */; };
+		D2BFA4B6F7A24E83AAA8742B /* NordecoCyrillic-Light.woff in Resources */ = {isa = PBXBuildFile; fileRef = 44B91AD8FDCC43D28475E90A /* NordecoCyrillic-Light.woff */; };
+		68207267705A437C84EF0F67 /* NordecoCyrillic-Light.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 589B60EEA24F42B386431675 /* NordecoCyrillic-Light.woff2 */; };
+		713BA1DABF5943A3AF9C3BDE /* NordecoCyrillic-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8A7E2A81423342A8882489AE /* NordecoCyrillic-Regular.ttf */; };
+		4DD43883F7A94485B3986028 /* NordecoCyrillic-Regular.woff in Resources */ = {isa = PBXBuildFile; fileRef = 098A84EAB4364A229B8D5E66 /* NordecoCyrillic-Regular.woff */; };
+		55FA19D144154583BD4A6E72 /* NordecoCyrillic-Regular.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 99083CDEA07F4E0390962ABB /* NordecoCyrillic-Regular.woff2 */; };
+		26C59EFB96B54C07A12BC7B9 /* NordecoCyrillic-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B656B756743C4F69A9AB765E /* NordecoCyrillic-SemiBold.ttf */; };
+		30C966CE79CE4335A90BD9C4 /* NordecoCyrillic-SemiBold.woff in Resources */ = {isa = PBXBuildFile; fileRef = B943C419B39C48F3A0AEEE27 /* NordecoCyrillic-SemiBold.woff */; };
+		C74E4CC6B5B647A6AD0C2A75 /* NordecoCyrillic-SemiBold.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 4A2A3BE81E2F41748E442DC9 /* NordecoCyrillic-SemiBold.woff2 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +68,30 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Medu/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-Medu-MeduTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Medu-MeduTests.release.xcconfig"; path = "Target Support Files/Pods-Medu-MeduTests/Pods-Medu-MeduTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		2CF23377CE4F41A38A251D73 /* Nordeco-Bold.ttf */ = {isa = PBXFileReference; name = "Nordeco-Bold.ttf"; path = "../assets/Nordeco-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		61CA6F0C34C14F978AB5356C /* Nordeco-Bold.woff */ = {isa = PBXFileReference; name = "Nordeco-Bold.woff"; path = "../assets/Nordeco-Bold.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		020F4D20A4744B6EB3D8A90D /* Nordeco-Bold.woff2 */ = {isa = PBXFileReference; name = "Nordeco-Bold.woff2"; path = "../assets/Nordeco-Bold.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9ADC6708F2E54780BFE555EB /* Nordeco-Light.ttf */ = {isa = PBXFileReference; name = "Nordeco-Light.ttf"; path = "../assets/Nordeco-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2BA0BA4CF19843D9A7E8E176 /* Nordeco-Light.woff */ = {isa = PBXFileReference; name = "Nordeco-Light.woff"; path = "../assets/Nordeco-Light.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B1C5A103D6954E4F92A1FE72 /* Nordeco-Light.woff2 */ = {isa = PBXFileReference; name = "Nordeco-Light.woff2"; path = "../assets/Nordeco-Light.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F2B9B43FA82E490D8A8D4221 /* Nordeco-Regular.ttf */ = {isa = PBXFileReference; name = "Nordeco-Regular.ttf"; path = "../assets/Nordeco-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5B693B0B270148E79D646C29 /* Nordeco-Regular.woff */ = {isa = PBXFileReference; name = "Nordeco-Regular.woff"; path = "../assets/Nordeco-Regular.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FB0AFEC1624C40AFB37B934D /* Nordeco-Regular.woff2 */ = {isa = PBXFileReference; name = "Nordeco-Regular.woff2"; path = "../assets/Nordeco-Regular.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B4C6D01AD5CB41EFBDA18533 /* Nordeco-SemiBold.ttf */ = {isa = PBXFileReference; name = "Nordeco-SemiBold.ttf"; path = "../assets/Nordeco-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9B127D0747584CC3BD410F81 /* Nordeco-SemiBold.woff */ = {isa = PBXFileReference; name = "Nordeco-SemiBold.woff"; path = "../assets/Nordeco-SemiBold.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1C89EBBAD3784A40BF9558B8 /* Nordeco-SemiBold.woff2 */ = {isa = PBXFileReference; name = "Nordeco-SemiBold.woff2"; path = "../assets/Nordeco-SemiBold.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		96B0572861754609816FB9B1 /* NordecoCyrillic-Bold.ttf */ = {isa = PBXFileReference; name = "NordecoCyrillic-Bold.ttf"; path = "../assets/NordecoCyrillic-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DA33D369875B4470BD78FE61 /* NordecoCyrillic-Bold.woff */ = {isa = PBXFileReference; name = "NordecoCyrillic-Bold.woff"; path = "../assets/NordecoCyrillic-Bold.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C1FEC2F424864544A2931D31 /* NordecoCyrillic-Bold.woff2 */ = {isa = PBXFileReference; name = "NordecoCyrillic-Bold.woff2"; path = "../assets/NordecoCyrillic-Bold.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		565F0CD4773B41168A8365AF /* NordecoCyrillic-Light.ttf */ = {isa = PBXFileReference; name = "NordecoCyrillic-Light.ttf"; path = "../assets/NordecoCyrillic-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		44B91AD8FDCC43D28475E90A /* NordecoCyrillic-Light.woff */ = {isa = PBXFileReference; name = "NordecoCyrillic-Light.woff"; path = "../assets/NordecoCyrillic-Light.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		589B60EEA24F42B386431675 /* NordecoCyrillic-Light.woff2 */ = {isa = PBXFileReference; name = "NordecoCyrillic-Light.woff2"; path = "../assets/NordecoCyrillic-Light.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8A7E2A81423342A8882489AE /* NordecoCyrillic-Regular.ttf */ = {isa = PBXFileReference; name = "NordecoCyrillic-Regular.ttf"; path = "../assets/NordecoCyrillic-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		098A84EAB4364A229B8D5E66 /* NordecoCyrillic-Regular.woff */ = {isa = PBXFileReference; name = "NordecoCyrillic-Regular.woff"; path = "../assets/NordecoCyrillic-Regular.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		99083CDEA07F4E0390962ABB /* NordecoCyrillic-Regular.woff2 */ = {isa = PBXFileReference; name = "NordecoCyrillic-Regular.woff2"; path = "../assets/NordecoCyrillic-Regular.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B656B756743C4F69A9AB765E /* NordecoCyrillic-SemiBold.ttf */ = {isa = PBXFileReference; name = "NordecoCyrillic-SemiBold.ttf"; path = "../assets/NordecoCyrillic-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B943C419B39C48F3A0AEEE27 /* NordecoCyrillic-SemiBold.woff */ = {isa = PBXFileReference; name = "NordecoCyrillic-SemiBold.woff"; path = "../assets/NordecoCyrillic-SemiBold.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4A2A3BE81E2F41748E442DC9 /* NordecoCyrillic-SemiBold.woff2 */ = {isa = PBXFileReference; name = "NordecoCyrillic-SemiBold.woff2"; path = "../assets/NordecoCyrillic-SemiBold.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +170,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				BC91B061F4714FA3AFA39B9B /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -147,6 +196,38 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
+		};
+		BC91B061F4714FA3AFA39B9B /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				2CF23377CE4F41A38A251D73 /* Nordeco-Bold.ttf */,
+				61CA6F0C34C14F978AB5356C /* Nordeco-Bold.woff */,
+				020F4D20A4744B6EB3D8A90D /* Nordeco-Bold.woff2 */,
+				9ADC6708F2E54780BFE555EB /* Nordeco-Light.ttf */,
+				2BA0BA4CF19843D9A7E8E176 /* Nordeco-Light.woff */,
+				B1C5A103D6954E4F92A1FE72 /* Nordeco-Light.woff2 */,
+				F2B9B43FA82E490D8A8D4221 /* Nordeco-Regular.ttf */,
+				5B693B0B270148E79D646C29 /* Nordeco-Regular.woff */,
+				FB0AFEC1624C40AFB37B934D /* Nordeco-Regular.woff2 */,
+				B4C6D01AD5CB41EFBDA18533 /* Nordeco-SemiBold.ttf */,
+				9B127D0747584CC3BD410F81 /* Nordeco-SemiBold.woff */,
+				1C89EBBAD3784A40BF9558B8 /* Nordeco-SemiBold.woff2 */,
+				96B0572861754609816FB9B1 /* NordecoCyrillic-Bold.ttf */,
+				DA33D369875B4470BD78FE61 /* NordecoCyrillic-Bold.woff */,
+				C1FEC2F424864544A2931D31 /* NordecoCyrillic-Bold.woff2 */,
+				565F0CD4773B41168A8365AF /* NordecoCyrillic-Light.ttf */,
+				44B91AD8FDCC43D28475E90A /* NordecoCyrillic-Light.woff */,
+				589B60EEA24F42B386431675 /* NordecoCyrillic-Light.woff2 */,
+				8A7E2A81423342A8882489AE /* NordecoCyrillic-Regular.ttf */,
+				098A84EAB4364A229B8D5E66 /* NordecoCyrillic-Regular.woff */,
+				99083CDEA07F4E0390962ABB /* NordecoCyrillic-Regular.woff2 */,
+				B656B756743C4F69A9AB765E /* NordecoCyrillic-SemiBold.ttf */,
+				B943C419B39C48F3A0AEEE27 /* NordecoCyrillic-SemiBold.woff */,
+				4A2A3BE81E2F41748E442DC9 /* NordecoCyrillic-SemiBold.woff2 */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -244,6 +325,30 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				5F240EB9547C44F2B95224E5 /* Nordeco-Bold.ttf in Resources */,
+				EF3AD2F964DD43B79997A5B2 /* Nordeco-Bold.woff in Resources */,
+				43F84528005C4EF08A9E5911 /* Nordeco-Bold.woff2 in Resources */,
+				E943F6B0F8E3422A9FA7AE8A /* Nordeco-Light.ttf in Resources */,
+				F01DFCF1ECB74D38967F6DD7 /* Nordeco-Light.woff in Resources */,
+				D8F96166C71146E39C20E33F /* Nordeco-Light.woff2 in Resources */,
+				C97AD610A9DC42FD84E8FCF0 /* Nordeco-Regular.ttf in Resources */,
+				2AA3D400490243739EA34860 /* Nordeco-Regular.woff in Resources */,
+				86783457759448868DE3BBED /* Nordeco-Regular.woff2 in Resources */,
+				88007E0E3744457BBB8050BF /* Nordeco-SemiBold.ttf in Resources */,
+				94421BCE3498457FA2A01E54 /* Nordeco-SemiBold.woff in Resources */,
+				516794C8DC5B445CA10BA570 /* Nordeco-SemiBold.woff2 in Resources */,
+				C61BC9C0CAFA4B418F56F6A7 /* NordecoCyrillic-Bold.ttf in Resources */,
+				4ED47A39203D416F9A854FB0 /* NordecoCyrillic-Bold.woff in Resources */,
+				FD73DE8885BA4CB884E84961 /* NordecoCyrillic-Bold.woff2 in Resources */,
+				8557DD92A9CB4EAEBF050461 /* NordecoCyrillic-Light.ttf in Resources */,
+				D2BFA4B6F7A24E83AAA8742B /* NordecoCyrillic-Light.woff in Resources */,
+				68207267705A437C84EF0F67 /* NordecoCyrillic-Light.woff2 in Resources */,
+				713BA1DABF5943A3AF9C3BDE /* NordecoCyrillic-Regular.ttf in Resources */,
+				4DD43883F7A94485B3986028 /* NordecoCyrillic-Regular.woff in Resources */,
+				55FA19D144154583BD4A6E72 /* NordecoCyrillic-Regular.woff2 in Resources */,
+				26C59EFB96B54C07A12BC7B9 /* NordecoCyrillic-SemiBold.ttf in Resources */,
+				30C966CE79CE4335A90BD9C4 /* NordecoCyrillic-SemiBold.woff in Resources */,
+				C74E4CC6B5B647A6AD0C2A75 /* NordecoCyrillic-SemiBold.woff2 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

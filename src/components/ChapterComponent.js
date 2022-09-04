@@ -9,6 +9,7 @@ import {
 } from 'react-native';
 import React from 'react';
 import CustomCard from './CustomCard';
+import constants from '../constants';
 
 const ChapterComponent = props => {
   const navigation = props.navigation;
@@ -20,6 +21,7 @@ const ChapterComponent = props => {
   return (
     <SafeAreaView style={styles.mainContainer}>
       <FlatList
+        showsVerticalScrollIndicator={false}
         data={props.chapters}
         renderItem={({item}) => (
           <TouchableOpacity
@@ -56,5 +58,6 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 25,
     fontWeight: '500',
+    fontFamily: constants.primaryFont,
   },
 });

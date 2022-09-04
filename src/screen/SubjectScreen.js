@@ -17,6 +17,7 @@ export default SubjectScreen;
 const styles = StyleSheet.create({
   mainScreenContainer: {
     flex: 1,
+    backgroundColor: 'white',
   },
   headerStyle: {
     color: 'white',

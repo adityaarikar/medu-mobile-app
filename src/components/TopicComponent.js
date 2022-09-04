@@ -9,25 +9,32 @@ import {
 } from 'react-native';
 import React from 'react';
 import CustomCard from './CustomCard';
-import PDF from './PDF';
 
 const TopicComponent = props => {
+  const navigation = props.navigation;
+
+  const goToPDF = (pdfLink, name) => {
+    return navigation.navigate('PDF', {pdfLink, name});
+  };
+  console.log(props.topics);
   return (
     <SafeAreaView style={styles.mainContainer}>
-      {/* <FlatList
+      <FlatList
         data={props.topics}
         renderItem={({item}) => (
-          <TouchableOpacity onPress={() => goToChapter(item.topics, item.name)}>
+          <View>
             <CustomCard style={styles.card}>
               <Text style={styles.title}>{item.name}</Text>
               <Button title="Video" />
-              <Button title="Pdf" onPress={() => <PDFExample />} />
+              <Button
+                title="Pdf"
+                onPress={() => goToPDF(item.pdfLink, item.name)}
+              />
             </CustomCard>
-          </TouchableOpacity>
+          </View>
         )}
-        keyExtractor={item => item.cId}
-      /> */}
-      <PDF />
+        keyExtractor={item => item.tId}
+      />
     </SafeAreaView>
   );
 };

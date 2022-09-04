@@ -36,7 +36,7 @@
 		</dict>
 	</dict>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string></string>
+	<string/>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIRequiredDeviceCapabilities</key>
@@ -51,5 +51,32 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Nordeco-Bold.ttf</string>
+		<string>Nordeco-Bold.woff</string>
+		<string>Nordeco-Bold.woff2</string>
+		<string>Nordeco-Light.ttf</string>
+		<string>Nordeco-Light.woff</string>
+		<string>Nordeco-Light.woff2</string>
+		<string>Nordeco-Regular.ttf</string>
+		<string>Nordeco-Regular.woff</string>
+		<string>Nordeco-Regular.woff2</string>
+		<string>Nordeco-SemiBold.ttf</string>
+		<string>Nordeco-SemiBold.woff</string>
+		<string>Nordeco-SemiBold.woff2</string>
+		<string>NordecoCyrillic-Bold.ttf</string>
+		<string>NordecoCyrillic-Bold.woff</string>
+		<string>NordecoCyrillic-Bold.woff2</string>
+		<string>NordecoCyrillic-Light.ttf</string>
+		<string>NordecoCyrillic-Light.woff</string>
+		<string>NordecoCyrillic-Light.woff2</string>
+		<string>NordecoCyrillic-Regular.ttf</string>
+		<string>NordecoCyrillic-Regular.woff</string>
+		<string>NordecoCyrillic-Regular.woff2</string>
+		<string>NordecoCyrillic-SemiBold.ttf</string>
+		<string>NordecoCyrillic-SemiBold.woff</string>
+		<string>NordecoCyrillic-SemiBold.woff2</string>
+	</array>
 </dict>
 </plist>

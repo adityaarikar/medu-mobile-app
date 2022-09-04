@@ -4,6 +4,7 @@ import {createStackNavigator} from '@react-navigation/stack';
 import SubjectScreen from './src/screen/SubjectScreen';
 import ChapterScreen from './src/screen/ChapterScreen';
 import TopicScreen from './src/screen/TopicScreen';
+import PdfScreen from './src/screen/PdfScreen';
 
 const Stack = createStackNavigator();
 
@@ -27,6 +28,13 @@ function NavStack() {
       <Stack.Screen
         name="Topic"
         component={TopicScreen}
+        options={{
+          headerShown: false,
+        }}
+      />
+      <Stack.Screen
+        name="PDF"
+        component={PdfScreen}
         options={{
           headerShown: false,
         }}

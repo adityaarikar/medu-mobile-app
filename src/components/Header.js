@@ -1,18 +1,21 @@
 import React from 'react';
 import {View, StyleSheet, Text} from 'react-native';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
+import constants from '../constants';
 
 export default Header = props => {
   if (props.withBack) {
     return (
       <View style={styles.titleView1}>
         <MaterialCommunityIcons
-          style={{marginLeft: -20, flex: 1}}
+          style={{flex: 1}}
           name="chevron-left"
           size={25}
+          color={'black'}
           onPress={() => props.onPress.goBack()}
         />
-        <Text style={[styles.titleText, {flex: 2}]}>{props.text}</Text>
+        <Text style={{...styles.titleText, flex: 1}}>{props.text}</Text>
+        <View style={{flex: 1}}></View>
       </View>
     );
   } else {
@@ -27,9 +30,15 @@ export default Header = props => {
 const styles = StyleSheet.create({
   titleView1: {
     margin: 10,
+    display: 'flex',
+    flexDirection: 'row',
     alignItems: 'center',
     flexDirection: 'row',
-    justifyContent: 'center',
+    justifyContent: 'space-between',
+    shadowOffset: {width: 5, height: 5},
+    shadowColor: 'red',
+    shadowRadius: 3,
+    elevation: 5,
   },
   titleView2: {
     margin: 10,
@@ -37,6 +46,6 @@ const styles = StyleSheet.create({
   },
   titleText: {
     fontSize: 25,
-    fontWeight: 'bold',
+    fontFamily: constants.primaryFont,
   },
 });

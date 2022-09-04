@@ -1,5 +1,6 @@
 import {StyleSheet, Text, View} from 'react-native';
 import React from 'react';
+import constants from '../constants';
 
 const CustomCard = props => {
   return (
@@ -13,12 +14,7 @@ export default CustomCard;
 
 const styles = StyleSheet.create({
   cardContainer: {
-    shadowColor: 'black',
-    shadowOpacity: 0.5,
-    shadowOffset: {width: 0, height: 20},
-    shadowRadius: 8,
-    elevation: 10,
     borderRadius: 10,
-    backgroundColor: 'yellow',
+    backgroundColor: constants.primaryColor,
   },
 });

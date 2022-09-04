@@ -1,6 +1,7 @@
 import {StyleSheet, Text, View} from 'react-native';
 import React from 'react';
 import ChapterComponent from '../components/ChapterComponent';
+import Header from '../components/Header';
 
 const ChapterScreen = props => {
   return (

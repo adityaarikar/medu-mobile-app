@@ -7,31 +7,51 @@ import {
   TouchableOpacity,
   View,
 } from 'react-native';
-import React from 'react';
-import Data from './../Data';
+import React, {useEffect, useState} from 'react';
 import CustomCard from './CustomCard';
+import axios from 'axios';
+import constants from '../constants';
 
 const SubjectComponent = props => {
+  const [subject, setSubjects] = useState();
+  const [loading, setLoading] = useState(true);
   const navigation = props.navigation;
 
   const goToChapter = (chapters, name) => {
     return navigation.navigate('Chapter', {chapters, name});
   };
 
+  const fetchData = async () => {
+    const responce = await axios.get(
+      'https://m-edu-apis.herokuapp.com/subject',
+    );
+    const data = responce.data;
+    setLoading(false);
+    setSubjects(data);
+  };
+  useEffect(() => {
+    fetchData();
+  }, []);
+
   return (
     <SafeAreaView style={styles.mainContainer}>
-      <FlatList
-        data={Data}
-        renderItem={({item}) => (
-          <TouchableOpacity
-            onPress={() => goToChapter(item.chapters, item.name)}>
-            <CustomCard style={styles.card}>
-              <Text style={styles.title}>{item.name}</Text>
-            </CustomCard>
-          </TouchableOpacity>
-        )}
-        keyExtractor={item => item.sId}
-      />
+      {loading ? (
+        <Text>Loading...</Text>
+      ) : (
+        <FlatList
+          data={subject}
+          renderItem={({item}) => (
+            <TouchableOpacity
+              activeOpacity={0.8}
+              onPress={() => goToChapter(item.chapters, item.name)}>
+              <CustomCard style={styles.card}>
+                <Text style={styles.title}>{item.name}</Text>
+              </CustomCard>
+            </TouchableOpacity>
+          )}
+          keyExtractor={item => item.sId}
+        />
+      )}
     </SafeAreaView>
   );
 };
@@ -49,6 +69,7 @@ const styles = StyleSheet.create({
   },
   card: {
     width: '100%',
+    height: 100,
     marginVertical: 20,
     paddingVertical: 30,
     justifyContent: 'center',
@@ -57,5 +78,7 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 25,
     fontWeight: '500',
+    color: '#000000',
+    fontFamily: constants.primaryFont,
   },
 });
