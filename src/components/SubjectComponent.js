@@ -1,4 +1,6 @@
 import {
+  ActivityIndicator,
+  ActivityIndicatorBase,
   Button,
   FlatList,
   SafeAreaView,
@@ -36,7 +38,7 @@ const SubjectComponent = props => {
   return (
     <SafeAreaView style={styles.mainContainer}>
       {loading ? (
-        <Text>Loading...</Text>
+        <ActivityIndicator size="large" color={constants.primaryColor} />
       ) : (
         <FlatList
           data={subject}
@@ -70,7 +72,7 @@ const styles = StyleSheet.create({
   card: {
     width: '100%',
     height: 100,
-    marginVertical: 20,
+    marginVertical: 10,
     paddingVertical: 30,
     justifyContent: 'center',
     alignItems: 'center',
@@ -79,6 +81,7 @@ const styles = StyleSheet.create({
     fontSize: 25,
     fontWeight: '500',
     color: '#000000',
+    textAlign: 'center',
     fontFamily: constants.primaryFont,
   },
 });

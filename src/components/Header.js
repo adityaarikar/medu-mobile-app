@@ -29,23 +29,31 @@ export default Header = props => {
 
 const styles = StyleSheet.create({
   titleView1: {
-    margin: 10,
+    marginLeft: 10,
+    paddingVertical: 20,
     display: 'flex',
     flexDirection: 'row',
     alignItems: 'center',
     flexDirection: 'row',
     justifyContent: 'space-between',
-    shadowOffset: {width: 5, height: 5},
-    shadowColor: 'red',
+    shadowOffset: {width: 5, height: 2},
+    shadowColor: 'grey',
     shadowRadius: 3,
     elevation: 5,
+    width: '100%',
   },
   titleView2: {
-    margin: 10,
+    paddingVertical: 20,
+    justifyContent: 'center',
     alignItems: 'center',
+    shadowOffset: {width: 2, height: 2},
+    shadowColor: 'grey',
+    shadowRadius: 3,
+    elevation: 5,
+    width: '100%',
   },
   titleText: {
     fontSize: 25,
-    fontFamily: constants.primaryFont,
+    fontFamily: constants.boldFont,
   },
 });

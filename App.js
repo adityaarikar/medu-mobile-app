@@ -5,6 +5,7 @@ import SubjectScreen from './src/screen/SubjectScreen';
 import ChapterScreen from './src/screen/ChapterScreen';
 import TopicScreen from './src/screen/TopicScreen';
 import PdfScreen from './src/screen/PdfScreen';
+import VideoScreen from './src/screen/VideoScreen';
 
 const Stack = createStackNavigator();
 
@@ -35,6 +36,13 @@ function NavStack() {
       <Stack.Screen
         name="PDF"
         component={PdfScreen}
+        options={{
+          headerShown: false,
+        }}
+      />
+      <Stack.Screen
+        name="Video"
+        component={VideoScreen}
         options={{
           headerShown: false,
         }}
