@@ -32,7 +32,7 @@ const TopicComponent = props => {
                 <TouchableOpacity
                   style={styles.btn}
                   onPress={() => goToVideo(item.videoLink, item.name)}>
-                  <Text style={styles.btnTitle}>Video</Text>
+                  <Text style={styles.btnTitle}>English Video</Text>
                 </TouchableOpacity>
                 <TouchableOpacity
                   style={styles.btn}

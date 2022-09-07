@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "2546956425",
+    "project_id": "medu-ce817",
+    "storage_bucket": "medu-ce817.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:2546956425:android:b3d81d1861089e14e26e58",
+        "android_client_info": {
+          "package_name": "com.medu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "2546956425-fjjv7th5c6pc21cb2170sct3fnenoitv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyThX5Q4sMqUPqlb2V1OrSmis7Qt_FG8U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "2546956425-fjjv7th5c6pc21cb2170sct3fnenoitv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

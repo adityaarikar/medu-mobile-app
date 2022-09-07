@@ -2,6 +2,7 @@ import {StyleSheet, Text, View} from 'react-native';
 import React from 'react';
 import ChapterComponent from '../components/ChapterComponent';
 import Header from '../components/Header';
+import {BannerAd, TestIds, BannerAdSize} from 'react-native-google-mobile-ads';
 
 const ChapterScreen = props => {
   return (
@@ -15,6 +16,9 @@ const ChapterScreen = props => {
         navigation={props.navigation}
         chapters={props.route.params.chapters}
       />
+      <View style={{position: 'absolute', bottom: 0, alignSelf: 'center'}}>
+        <BannerAd size={BannerAdSize.BANNER} unitId={TestIds.BANNER} />
+      </View>
     </View>
   );
 };

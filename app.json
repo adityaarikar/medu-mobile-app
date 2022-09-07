@@ -1,4 +1,8 @@
 {
   "name": "Medu",
-  "displayName": "Medu"
+  "displayName": "Medu",
+  "react-native-google-mobile-ads": {
+    "android_app_id": "ca-app-pub-3392804461567023~6515306182",
+    "ios_app_id": "ca-app-pub-3392804461567023~2749916997"
+  }
 }
