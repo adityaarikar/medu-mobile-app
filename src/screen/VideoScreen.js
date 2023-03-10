@@ -15,7 +15,6 @@ import {
 const VideoScreen = props => {
   const [loading, setLoading] = useState(true);
   const videoId = props.route.params.videoId.replace('https://youtu.be/', '');
-  console.log(videoId);
   return (
     <View>
       <Header

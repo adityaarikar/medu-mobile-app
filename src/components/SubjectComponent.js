@@ -24,9 +24,7 @@ const SubjectComponent = props => {
   };
 
   const fetchData = async () => {
-    const responce = await axios.get(
-      'https://m-edu-apis.herokuapp.com/subject',
-    );
+    const responce = await axios.get('http://3.111.218.206:8080/subject');
     const data = responce.data;
     setLoading(false);
     setSubjects(data);

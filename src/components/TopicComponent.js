@@ -20,6 +20,8 @@ const TopicComponent = props => {
   const goToVideo = (videoId, name) => {
     return navigation.navigate('Video', {videoId, name});
   };
+
+  console.log(props.topics);
   return (
     <SafeAreaView style={styles.mainContainer}>
       <FlatList
@@ -31,7 +33,7 @@ const TopicComponent = props => {
               <View style={styles.btnContainer}>
                 <TouchableOpacity
                   style={styles.btn}
-                  onPress={() => goToVideo(item.videoLink, item.name)}>
+                  onPress={() => goToVideo(item.englishVideoLink, item.name)}>
                   <Text style={styles.btnTitle}>English Video</Text>
                 </TouchableOpacity>
                 <TouchableOpacity
