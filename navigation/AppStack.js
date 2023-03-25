@@ -7,6 +7,7 @@ import TopicScreen from '../src/screen/TopicScreen';
 import PdfScreen from '../src/screen/PdfScreen';
 import VideoScreen from '../src/screen/VideoScreen';
 import LoginScreen from '../src/screen/LoginScreen';
+import SignupScreen from '../src/screen/SingupScreen';
 
 const Stack = createStackNavigator();
 
@@ -48,13 +49,20 @@ const AppStack = () => {
           headerShown: false,
         }}
       />
-      <Stack.Screen
+      {/* <Stack.Screen
         name="Login"
         component={LoginScreen}
         options={{
           headerShown: false,
         }}
       />
+      <Stack.Screen
+        name="Signup"
+        component={SignupScreen}
+        options={{
+          headerShown: false,
+        }}
+      /> */}
     </Stack.Navigator>
   );
 };
