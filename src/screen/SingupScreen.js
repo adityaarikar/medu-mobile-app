@@ -50,12 +50,6 @@ const SignupScreen = ({navigation}) => {
         <Text style={styles.color_textPrivate}>
           By registering, you confirm that you accept our{' '}
         </Text>
-        <TouchableOpacity onPress={() => alert('Terms Clicked!')}>
-          <Text style={[styles.color_textPrivate, {color: '#e88832'}]}>
-            Terms of service
-          </Text>
-        </TouchableOpacity>
-        <Text style={styles.color_textPrivate}> and </Text>
         <Text style={[styles.color_textPrivate, {color: '#e88832'}]}>
           Privacy Policy
         </Text>

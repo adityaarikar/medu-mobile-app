@@ -17,16 +17,17 @@ const LoginScreen = ({navigation}) => {
   const [password, setPassword] = useState();
 
   const {login} = useContext(AuthContext);
+  const {forgot} = useContext(AuthContext);
 
   return (
     <ScrollView contentContainerStyle={styles.container}>
-      <Text style={styles.text}>RN Social App</Text>
+      <Text style={styles.text}>m.edu</Text>
 
       <FormInput
         labelValue={email}
         onChangeText={userEmail => setEmail(userEmail)}
         placeholderText="Email"
-        iconType="user"
+        iconType="envelope"
         keyboardType="email-address"
         autoCapitalize="none"
         autoCorrect={false}
@@ -45,7 +46,7 @@ const LoginScreen = ({navigation}) => {
         onPress={() => login(email, password)}
       />
 
-      <TouchableOpacity style={styles.forgotButton} onPress={() => {}}>
+      <TouchableOpacity style={styles.forgotButton} onPress={() => forgot(email)}>
         <Text style={styles.navButtonText}>Forgot Password?</Text>
       </TouchableOpacity>
 

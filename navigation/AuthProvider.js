@@ -57,6 +57,14 @@ export const AuthProvider = ({children}) => {
     }
   };
 
+  const forgot = (email) => {
+    try {
+      auth().sendPasswordResetEmail(email);
+    } catch (e) {
+      console.log(e);
+    }
+  };
+
   return (
     <AuthContext.Provider
       value={{
@@ -65,6 +73,7 @@ export const AuthProvider = ({children}) => {
         login,
         register,
         logout,
+        forgot,
       }}>
       {children}
     </AuthContext.Provider>

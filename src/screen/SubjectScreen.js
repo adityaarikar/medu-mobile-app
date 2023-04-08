@@ -1,5 +1,5 @@
-import {StyleSheet, Text, View} from 'react-native';
-import React from 'react';
+import {StyleSheet, Text, View, TouchableOpacity} from 'react-native';
+import React, {useContext} from 'react';
 import Header from '../components/Header';
 import SubjectComponents from './../components/SubjectComponent';
 import {
@@ -12,10 +12,13 @@ import {
 } from 'react-native-google-mobile-ads';
 
 const SubjectScreen = ({navigation}) => {
+
   return (
     <View style={styles.mainScreenContainer}>
-      <Header text="Subjects" withBack={false} />
+      {/* <Header text="Subjects" withBack={false}>
+      </Header> */}
       <SubjectComponents navigation={navigation} />
+          
       <View style={{position: 'absolute', bottom: 0, alignSelf: 'center'}}>
         <BannerAd size={BannerAdSize.BANNER} unitId={TestIds.BANNER} />
       </View>
