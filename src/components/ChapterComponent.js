@@ -58,6 +58,7 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 25,
     fontWeight: '500',
+    color: '#000',
     fontFamily: constants.primaryFont,
     textAlign: 'center',
   },

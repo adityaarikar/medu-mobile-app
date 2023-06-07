@@ -17,6 +17,7 @@ const TopicScreen = props => {
         text={props.route.params.name}
         withBack={true}
         onPress={props.navigation}
+        style
       />
       <TopicComponent
         navigation={props.navigation}
@@ -31,4 +32,15 @@ const TopicScreen = props => {
 
 export default TopicScreen;
 
-const styles = StyleSheet.create({});
+const styles = StyleSheet.create({
+  mainScreenContainer: {
+    flex: 1,
+    backgroundColor: 'white',
+  },
+  headerStyle: {
+    color: 'white',
+    fontWeight: 'bold',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+});

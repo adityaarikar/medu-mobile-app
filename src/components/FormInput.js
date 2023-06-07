@@ -1,6 +1,6 @@
 import React from 'react';
 import {View, TextInput, StyleSheet} from 'react-native';
-import FontAwesome from 'react-native-vector-icons/FontAwesome';
+import FontAwesome from 'react-native-vector-icons/MaterialIcons';
 
 const FormInput = ({labelValue, placeholderText, iconType, ...rest}) => {
   return (

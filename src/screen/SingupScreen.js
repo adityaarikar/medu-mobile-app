@@ -19,7 +19,7 @@ const SignupScreen = ({navigation}) => {
         labelValue={email}
         onChangeText={userEmail => setEmail(userEmail)}
         placeholderText="Email"
-        iconType="user"
+        iconType="email"
         keyboardType="email-address"
         autoCapitalize="none"
         autoCorrect={false}
@@ -88,6 +88,7 @@ const styles = StyleSheet.create({
     fontWeight: '500',
     color: '#2e64e5',
     fontFamily: 'Lato-Regular',
+    marginTop: -7,
   },
   textPrivate: {
     flexDirection: 'row',

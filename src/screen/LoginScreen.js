@@ -11,6 +11,7 @@ import {
 import FormInput from '../components/FormInput';
 import FormButton from '../components/FormButton';
 import {AuthContext} from '../../navigation/AuthProvider';
+import logo from '../../assets/img/Logo.png';
 
 const LoginScreen = ({navigation}) => {
   const [email, setEmail] = useState();
@@ -21,13 +22,13 @@ const LoginScreen = ({navigation}) => {
 
   return (
     <ScrollView contentContainerStyle={styles.container}>
-      <Text style={styles.text}>m.edu</Text>
+      <Image source={logo} alt="m.edu" style={styles.logo} />
 
       <FormInput
         labelValue={email}
         onChangeText={userEmail => setEmail(userEmail)}
         placeholderText="Email"
-        iconType="envelope"
+        iconType="email"
         keyboardType="email-address"
         autoCapitalize="none"
         autoCorrect={false}
@@ -42,7 +43,7 @@ const LoginScreen = ({navigation}) => {
       />
 
       <FormButton
-        buttonTitle="Sign In"
+        buttonTitle="Login"
         onPress={() => login(email, password)}
       />
 
@@ -71,9 +72,10 @@ const styles = StyleSheet.create({
     paddingTop: 50,
   },
   logo: {
-    height: 150,
-    width: 150,
+    height: 135,
+    width: 160,
     resizeMode: 'cover',
+    marginBottom: 12,
   },
   text: {
     fontFamily: 'Kufam-SemiBoldItalic',
@@ -81,11 +83,9 @@ const styles = StyleSheet.create({
     marginBottom: 10,
     color: '#051d5f',
   },
-  navButton: {
-    marginTop: 15,
-  },
   forgotButton: {
-    marginVertical: 35,
+    marginTop: 20,
+    marginBottom: 15,
   },
   navButtonText: {
     fontSize: 18,

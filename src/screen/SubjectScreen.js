@@ -1,4 +1,4 @@
-import {StyleSheet, Text, View, TouchableOpacity} from 'react-native';
+import {StyleSheet, Text, View,Image, TouchableOpacity} from 'react-native';
 import React, {useContext} from 'react';
 import Header from '../components/Header';
 import SubjectComponents from './../components/SubjectComponent';
@@ -10,6 +10,7 @@ import {
   TestIds,
   BannerAdSize,
 } from 'react-native-google-mobile-ads';
+import home_img from '../../assets/img/Home_vector.png';
 
 const SubjectScreen = ({navigation}) => {
 
@@ -17,6 +18,7 @@ const SubjectScreen = ({navigation}) => {
     <View style={styles.mainScreenContainer}>
       {/* <Header text="Subjects" withBack={false}>
       </Header> */}
+      <Image source={home_img} alt="m.edu" style={styles.homeimg} />
       <SubjectComponents navigation={navigation} />
           
       <View style={{position: 'absolute', bottom: 0, alignSelf: 'center'}}>
@@ -38,5 +40,10 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     justifyContent: 'center',
     alignItems: 'center',
+  },
+  homeimg: {
+    height: 250,
+    width: 250,
+    alignSelf: 'center',
   },
 });
