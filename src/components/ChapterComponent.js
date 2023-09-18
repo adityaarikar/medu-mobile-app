@@ -14,7 +14,7 @@ import constants from '../constants';
 const ChapterComponent = props => {
   const navigation = props.navigation;
 
-  const goToChapter = (topics, name) => {
+  const goToTopic = (topics, name) => {
     return navigation.navigate('Topic', {topics, name});
   };
 
@@ -25,7 +25,7 @@ const ChapterComponent = props => {
         data={props.chapters}
         renderItem={({item}) => (
           <TouchableOpacity
-            onPress={() => goToChapter(item.topics, item.chapterName)}>
+            onPress={() => goToTopic(item.topics, item.chapterName)}>
             <CustomCard style={styles.card}>
               <Text style={styles.title}>{item.chapterName}</Text>
             </CustomCard>
