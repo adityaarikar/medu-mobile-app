@@ -14,7 +14,7 @@ export default CustomCard;
 
 const styles = StyleSheet.create({
   cardContainer: {
-    borderRadius: 10,
+    borderRadius: 50,
     backgroundColor: constants.primaryColor,
   },
 });

@@ -78,6 +78,7 @@ const styles = StyleSheet.create({
     fontSize: 25,
     fontWeight: '500',
     textAlign: 'center',
+    color: '#fff',
     fontFamily: constants.primaryFont,
   },
   btnContainer: {
@@ -101,5 +102,6 @@ const styles = StyleSheet.create({
   btnTitle: {
     fontSize: 17,
     fontFamily: constants.boldFont,
+    color: '#000',
   },
 });

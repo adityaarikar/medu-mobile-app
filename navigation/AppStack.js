@@ -2,7 +2,6 @@ import React,{useContext} from 'react';
 import {View, TouchableOpacity, Text} from 'react-native';
 import {createStackNavigator} from '@react-navigation/stack';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
-import FontAwesome5 from 'react-native-vector-icons/FontAwesome';
 import {AuthContext} from './AuthProvider';
 
 
@@ -11,8 +10,6 @@ import ChapterScreen from '../src/screen/ChapterScreen';
 import TopicScreen from '../src/screen/TopicScreen';
 import PdfScreen from '../src/screen/PdfScreen';
 import VideoScreen from '../src/screen/VideoScreen';
-import LoginScreen from '../src/screen/LoginScreen';
-import SignupScreen from '../src/screen/SingupScreen';
 
 const Stack = createStackNavigator();
 

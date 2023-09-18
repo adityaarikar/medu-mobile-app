@@ -1,5 +1,5 @@
 import {StyleSheet, Text, View} from 'react-native';
-import React from 'react';
+import React, {useContext} from 'react';
 import ChapterComponent from '../components/ChapterComponent';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 import Header from '../components/Header';
@@ -12,14 +12,8 @@ const ChapterScreen = props => {
         text={props.route.params.name}
         withBack={true}
         onPress={props.navigation}
+        style={styles.header}
       >
-            <MaterialCommunityIcons
-              name="logout"
-              size={25}
-              backgroundColor="#fff"
-              color="#000"
-              onPress={() => logout()}
-            />
       </Header>
       <ChapterComponent
         navigation={props.navigation}
